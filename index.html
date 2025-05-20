@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Vardhan Reddy | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Hi, I'm <span class="highlight">Vivek Vardhan Reddy</span></h1>
+            <p class="subtitle">I'm an AIML student and aspiring Machine Learning Engineer with a knack for building intelligent models and responsive web applications.
+            </p>
+            <a href="#work" class="btn">View My Work</a>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="img.jpg" alt="Your Name" class="profile-img">
+                <div class="about-text">
+                    <p>I am a dedicated AI/ML student with strong expertise in Python, machine learning, and web development. My focus lies in building intelligent systems and scalable web applications, merging analytical problem-solving with robust software engineering.</p>
+                    <br>
+                    <p>I am currently pursuing a Bachelor of Technology in Computer Science and Engineering (AI & ML) at Vardhaman College of Engineering, affiliated with JNTUH, with a strong academic performance (CGPA: 9.0). Prior to this, I completed my Pre-University Course at Rajiv Gandhi University of Knowledge Technologies, Basar (RGUKT-B), where I achieved a CGPA of 9.01.</p>
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>Frontend web dev</li>
+                            <li>Machine Learning</li>
+                            <li>Javascript</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="work">
+            <h2>My Work</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <img src="invigilens.png" alt="Project 1">
+                    <h3>InvigiLens</h3>
+                    <p>This is an AI-based online exam monitoring system that uses face detection and eye tracking to detect suspicious behavior during exams.</p>
+                    <br>
+                    <!-- <br> -->
+                    <a href="https://vivek-vardhan-reddy.github.io/InvigiLens/" class="btn-small">Demo</a>
+                    <a href="https://github.com/Vivek-Vardhan-Reddy/InvigiLens" class="btn-small">Code</a>
+                </div>
+                <div class="project-card">
+                    <img src="snakegame.png" alt="Project 2">
+                    <h3>Snake Game</h3>
+                    <p>A modern take on the classic Snake arcade game, where players control a growing snake to collect food while avoiding collisions with walls or themselves. Built with HTML5 Canvas and JavaScript.</p>
+                    <a href="https://vivek-vardhan-reddy.github.io/sankeGame/" class="btn-small">Demo</a>
+                    <a href="https://github.com/Vivek-Vardhan-Reddy/sankeGame" class="btn-small">Code</a>
+                </div>
+                <!-- <div class="project-card">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Project Title 3</h3>
+                    <p>Brief description of the project and your role.</p>
+                    <a href="#" class="btn-small">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Project Title 3</h3>
+                    <p>Brief description of the project and your role.</p>
+                    <a href="#" class="btn-small">View Project</a>
+                </div> -->
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Get In Touch</h2>
+            <p>To reach out for collaborations or just a friendly hello!</p>
+            <div class="contact-links">
+                <a href="mailto:vivekvardhanreddypeddollakgd@gmail.com"><i class="fas fa-envelope"></i> vivekvardhanreddypeddollakgd@gmail.com</a>
+                <a href="https://www.linkedin.com/in/vivek-vardhan-reddy-peddolla"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/Vivek-Vardhan-Reddy"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Vivek Vardhan Reddy. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
